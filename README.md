@@ -1,43 +1,14 @@
-# Car-Showroom-Database-Management
-Car Showroom Management System is a project that is used to manage and control the 
-complete record of cars . This mini project is to project is to present hold the record of Cars, 
-Customers,booking. This Car showroom management system project is 
-devised for owners and users who are engaged in cars. This system has the track of all cars 
-with every single detail.If someone is involved in buying the car 
-,then he/she can reach the retailer as well for the same , via the system.
+# DBMS-Car-Showroom
+A Car Showroom Management System in which you can create a customer account and book cars and see your bookings.
+The admin can login and see current orders from different customers and add new cars to the inventory list.
+Installation steps:
+1. Download wampp server from : http://www.wampserver.com/en/
+2. Open browser and type : http://localhost/phpmyadmin/ to open PHPMyAdmin ( Default username and password is : 'root' )
+3. Create new database and name it : car_showroom
+4. Set password for the database as : root
+5. Import the database file from the database folder present in this repo into phpMyAdmin
+6. Run the wampp server
+7. Type http://localhost/carshowroom/ for seeing the available cars and booking the cars ( i.e. Customer)
+8. Type http://localhost/carshowroom/admin/admin.php for the admin login
 
-Web Pages offered in this website:
-
-      • Home Page 
-      • Sign up Page 
-      • Admin Page 
-      • Login Page
-      • Orders Page 
-      • Book Page 
-      • Brand Page 
-      
-
-Language: HTML, CSS, JavaScript 
-
-IDE: Visual Studio Code 
-
-Back End: Implemented with PHP, integrated with MySQL database, XAMPP 
-
-Steps to run the project:
-
-         1.install xampp server : link -: https://www.apachefriends.org/
-
-         2.type: localhost in address bar and open phpmyadmin
-
-         3.create a database - " car_showroom "
-
-         4.set password for the database as : "root "
-
-         5.run the xampp server
-
-         6.start the project " localhost/carshowroom
-
-         7.for admin part " localhost/carshowroom/admin/admin.php 
-
-have fun :)
-
+PS : Delete README.md file after cloning
